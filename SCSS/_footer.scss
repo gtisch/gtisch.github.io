@@ -1,0 +1,21 @@
+$fonts: 'Kaisei HarunoUmi', serif;
+$marginIcon: 10px;
+
+.footer__class{
+    background-image: linear-gradient(rgb(85, 62, 44), rgba(155, 109, 73, 0.918));
+    color: white;
+    padding: 30px;
+    margin-top: 10px;
+    width: auto;
+    p{
+        font-weight: bold;
+        font-family: $fonts;
+        color: white;
+    }
+    a{
+        text-decoration: none;
+    }
+    .separado{
+        margin-right: $marginIcon
+    }
+}

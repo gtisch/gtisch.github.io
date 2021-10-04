@@ -1,0 +1,177 @@
+$colorBg: rgba(100, 54, 17, 0.753);
+$fonts: 'Kaisei HarunoUmi', serif;
+$height: 300px;
+$fontsizeh1: 80px;
+$fontsizep: 25px;
+$colorletras: white;
+$margint: 10px;
+
+.img__Nosotros img{
+	width: 100%; 
+	margin-top: -30px;
+	height: auto;
+}
+
+@media (max-width: 920px){
+    .img__Nosotros img{
+        margin-top: -12px;
+    }
+}
+
+.text__nosotros1{
+    height: 100%;
+    background: $colorBg;
+    color: $colorletras;
+    font-weight: bold;
+    margin-top: $margint;
+    h1{
+        font-size: $fontsizeh1;
+        font-family: $fonts;
+        }
+    p{
+        font-size: $fontsizep;
+        font-family: $fonts;
+    }
+}
+
+@media (max-width: 720px) {
+    .text__nosotros1{
+        width: 100%;
+        h1{
+            font-size: 60px;
+        }
+    }
+}
+
+@media (max-width: 720px) {
+    .text__nosotros1{
+        width: 100%;
+        p{
+            font-size: 30px;
+        }
+    }
+}
+
+@media (max-width: 540px) {
+    .text__nosotros1{
+        width: 100%;
+        h1{
+            font-size: 40px;
+        }
+    }
+}
+
+@media (max-width: 540px) {
+    .text__nosotros1{
+        width: 100%;
+        p{
+            font-size: 20px;
+        }
+    }
+}
+
+.text__nosotros2{
+    height: 100%;
+    background: white;
+    color: $color;
+    font-weight: bold;
+    margin-top: $margint;
+    h1{
+        font-size: $fontsizeh1;
+        font-family: $fonts;
+        text-align: right;
+        }
+    p{
+        font-size: $fontsizep;
+        font-family: $fonts;
+    }
+}
+
+@media (max-width: 720px) {
+    .text__nosotros2{
+        width: 100%;
+        h1{
+            font-size: 60px;
+        }
+    }
+}
+
+@media (max-width: 720px) {
+    .text__nosotros2{
+        width: 100%;
+        p{
+            font-size: 30px;
+        }
+    }
+}
+
+@media (max-width: 540px) {
+    .text__nosotros2{
+        width: 100%;
+        h1{
+            font-size: 40px;
+        }
+    }
+}
+
+@media (max-width: 540px) {
+    .text__nosotros2{
+        width: 100%;
+        p{
+            font-size: 20px;
+        }
+    }
+}
+
+.text__nosotros3{
+    height: 100%;
+    background: $colorBg;
+    color: $colorletras;
+    font-weight: bold;
+    margin-top: $margint;
+    h1{
+        font-size: $fontsizeh1;
+        font-family: $fonts;
+        }
+        p{
+            font-size: $fontsizep;
+            font-family: $fonts;
+        }
+}
+
+@media (max-width: 720px) {
+    .text__nosotros3{
+        width: 100%;
+        h1{
+            font-size: 60px;
+        }
+    }
+}
+
+@media (max-width: 720px) {
+    .text__nosotros3{
+        width: 100%;
+        p{
+            font-size: 30px;
+        }
+    }
+}
+
+@media (max-width: 540px) {
+    .text__nosotros3{
+        width: 100%;
+        h1{
+            font-size: 40px;
+        }
+    }
+}
+
+@media (max-width: 540px) {
+    .text__nosotros3{
+        width: 100%;
+        p{
+            font-size: 20px;
+        }
+    }
+}
+

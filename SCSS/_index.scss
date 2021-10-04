@@ -1,0 +1,145 @@
+.img__Header img{
+	width: 100%; 
+	margin-top: -30px;
+	height: auto;
+}
+
+@media (max-width: 920px){
+    .img__Header img{
+        margin-top: -12px;
+    }
+}
+
+/*Section 1*/
+
+.section__Index1{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    width: 100%;
+    background: $colorbackground;
+    color: white;
+    margin-top: $marginSection;
+    p{
+        text-align: center;
+        margin-top: 120px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .section__Index1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        p{
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 1050px){
+    .section__Index1 p{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 1110px){
+    .section__Index1 p{
+        margin-top: 50px;
+    }
+}
+
+
+/*Section 2*/
+
+.section__Index2{
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 30px;
+    width: 100%;
+    background: $colorbackground;
+    color: white;
+    margin-top: $marginSection;
+    p{
+        text-align: center;
+        margin-top: 120px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .section__Index2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        p{
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 1050px){
+    .section__Index2 p{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 1110px){
+    .section__Index2 p{
+        margin-top: 50px;
+    }
+}
+
+/*Section 3*/
+
+.section__Index3{
+    display: flex;
+    flex-direction: row;
+    background: rgba(100, 54, 17, 0.753);
+    padding: 20px;
+    justify-content: space-evenly;
+    margin-top: $marginSection;
+    img{
+        border-radius: 30px;
+    }
+}
+
+@media (max-width: 990px) {
+    .section__Index3{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        img{
+            width: 200px;
+            height: 200px;
+        }
+    }
+}
+
+@media (max-width: 710px) {
+    .section__Index3{
+        display: none;
+    }
+}
+
+/*Carousel Responsive*/
+
+.contenedor__section3{
+    width: 100%;
+    background: $colorbackground;
+}
+
+.carousel__Style{
+    width: 300px;
+    height: 300px;
+    margin-top: $marginSection;
+    img{
+        border-radius: 30px;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 710px) {
+    .carousel__Style{
+        display: none;
+}
+}

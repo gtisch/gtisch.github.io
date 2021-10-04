@@ -1,0 +1,572 @@
+* {
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box; }
+
+body {
+  background-image: linear-gradient(rgba(173, 98, 36, 0.753), white);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  list-style: none; }
+
+/*Boton de Whatsapp*/
+.btn-wsp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  line-height: 63px;
+  bottom: 25px;
+  right: 25px;
+  background: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 45px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  transition: all 300ms ease; }
+
+.btn-wsp:hover {
+  background: #20ba5a; }
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .btn-wsp {
+    width: 63px;
+    height: 63px;
+    line-height: 66px; } }
+
+/*Index*/
+nav {
+  background: #643611;
+  height: 50px;
+  width: 100%;
+  position: fixed; }
+
+label.logo {
+  color: white;
+  font-size: 30px;
+  font-family: 'Pacifico', cursive;
+  margin-left: 30px; }
+
+nav ul {
+  float: right;
+  margin-right: 30px;
+  margin-top: -15px; }
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px; }
+
+nav ul li a {
+  color: white;
+  font-size: 14px;
+  padding: 7px 14px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-family: 'Azeret Mono', monospace;
+  font-family: 'Pacifico', cursive; }
+
+a.active, a:hover {
+  background: #8a490d;
+  transition: .5s; }
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none; }
+
+#check {
+  display: none; }
+
+@media (max-width: 952px) {
+  label.logo {
+    font-size: 28px;
+    padding-left: 5px; }
+  nav ul li a {
+    font-size: 14px; } }
+
+@media (max-width: 922px) {
+  label.logo {
+    color: white;
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+    margin-left: 30px;
+    margin-top: 12px; }
+  .checkbtn {
+    display: block;
+    margin-top: -15px; }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgba(100, 54, 17, 0.753);
+    top: 60px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s; }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px; }
+  nav ul li a {
+    font-size: 20px; }
+  a:hover, a.active {
+    background: none;
+    color: black; }
+  #check:checked ~ ul {
+    left: 0; } }
+
+.footer__class {
+  background-image: linear-gradient(#553e2c, rgba(155, 109, 73, 0.918));
+  color: white;
+  padding: 30px;
+  margin-top: 10px;
+  width: auto; }
+  .footer__class p {
+    font-weight: bold;
+    font-family: "Kaisei HarunoUmi", serif;
+    color: white; }
+  .footer__class a {
+    text-decoration: none; }
+  .footer__class .separado {
+    margin-right: 10px; }
+
+.img__Header img {
+  width: 100%;
+  margin-top: -30px;
+  height: auto; }
+
+@media (max-width: 920px) {
+  .img__Header img {
+    margin-top: -12px; } }
+
+/*Section 1*/
+.section__Index1 {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  width: 100%;
+  background: rgba(100, 54, 17, 0.753);
+  color: white;
+  margin-top: 10px; }
+  .section__Index1 p {
+    text-align: center;
+    margin-top: 120px; }
+
+@media (max-width: 1000px) {
+  .section__Index1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%; }
+    .section__Index1 p {
+      font-size: 20px; } }
+
+@media (max-width: 1050px) {
+  .section__Index1 p {
+    margin-top: 30px; } }
+
+@media (max-width: 1110px) {
+  .section__Index1 p {
+    margin-top: 50px; } }
+
+/*Section 2*/
+.section__Index2 {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 30px;
+  width: 100%;
+  background: rgba(100, 54, 17, 0.753);
+  color: white;
+  margin-top: 10px; }
+  .section__Index2 p {
+    text-align: center;
+    margin-top: 120px; }
+
+@media (max-width: 1000px) {
+  .section__Index2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%; }
+    .section__Index2 p {
+      font-size: 20px; } }
+
+@media (max-width: 1050px) {
+  .section__Index2 p {
+    margin-top: 30px; } }
+
+@media (max-width: 1110px) {
+  .section__Index2 p {
+    margin-top: 50px; } }
+
+/*Section 3*/
+.section__Index3 {
+  display: flex;
+  flex-direction: row;
+  background: rgba(100, 54, 17, 0.753);
+  padding: 20px;
+  justify-content: space-evenly;
+  margin-top: 10px; }
+  .section__Index3 img {
+    border-radius: 30px; }
+
+@media (max-width: 990px) {
+  .section__Index3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%; }
+    .section__Index3 img {
+      width: 200px;
+      height: 200px; } }
+
+@media (max-width: 710px) {
+  .section__Index3 {
+    display: none; } }
+
+/*Carousel Responsive*/
+.contenedor__section3 {
+  width: 100%;
+  background: rgba(100, 54, 17, 0.753); }
+
+.carousel__Style {
+  width: 300px;
+  height: 300px;
+  margin-top: 10px; }
+  .carousel__Style img {
+    border-radius: 30px;
+    margin-top: 10px; }
+
+@media (min-width: 710px) {
+  .carousel__Style {
+    display: none; } }
+
+/*Nosotros*/
+.img__Nosotros img {
+  width: 100%;
+  margin-top: -30px;
+  height: auto; }
+
+@media (max-width: 920px) {
+  .img__Nosotros img {
+    margin-top: -12px; } }
+
+.text__nosotros1 {
+  height: 100%;
+  background: rgba(100, 54, 17, 0.753);
+  color: white;
+  font-weight: bold;
+  margin-top: 10px; }
+  .text__nosotros1 h1 {
+    font-size: 80px;
+    font-family: "Kaisei HarunoUmi", serif; }
+  .text__nosotros1 p {
+    font-size: 25px;
+    font-family: "Kaisei HarunoUmi", serif; }
+
+@media (max-width: 720px) {
+  .text__nosotros1 {
+    width: 100%; }
+    .text__nosotros1 h1 {
+      font-size: 60px; } }
+
+@media (max-width: 720px) {
+  .text__nosotros1 {
+    width: 100%; }
+    .text__nosotros1 p {
+      font-size: 30px; } }
+
+@media (max-width: 540px) {
+  .text__nosotros1 {
+    width: 100%; }
+    .text__nosotros1 h1 {
+      font-size: 40px; } }
+
+@media (max-width: 540px) {
+  .text__nosotros1 {
+    width: 100%; }
+    .text__nosotros1 p {
+      font-size: 20px; } }
+
+.text__nosotros2 {
+  height: 100%;
+  background: white;
+  color: #643611;
+  font-weight: bold;
+  margin-top: 10px; }
+  .text__nosotros2 h1 {
+    font-size: 80px;
+    font-family: "Kaisei HarunoUmi", serif;
+    text-align: right; }
+  .text__nosotros2 p {
+    font-size: 25px;
+    font-family: "Kaisei HarunoUmi", serif; }
+
+@media (max-width: 720px) {
+  .text__nosotros2 {
+    width: 100%; }
+    .text__nosotros2 h1 {
+      font-size: 60px; } }
+
+@media (max-width: 720px) {
+  .text__nosotros2 {
+    width: 100%; }
+    .text__nosotros2 p {
+      font-size: 30px; } }
+
+@media (max-width: 540px) {
+  .text__nosotros2 {
+    width: 100%; }
+    .text__nosotros2 h1 {
+      font-size: 40px; } }
+
+@media (max-width: 540px) {
+  .text__nosotros2 {
+    width: 100%; }
+    .text__nosotros2 p {
+      font-size: 20px; } }
+
+.text__nosotros3 {
+  height: 100%;
+  background: rgba(100, 54, 17, 0.753);
+  color: white;
+  font-weight: bold;
+  margin-top: 10px; }
+  .text__nosotros3 h1 {
+    font-size: 80px;
+    font-family: "Kaisei HarunoUmi", serif; }
+  .text__nosotros3 p {
+    font-size: 25px;
+    font-family: "Kaisei HarunoUmi", serif; }
+
+@media (max-width: 720px) {
+  .text__nosotros3 {
+    width: 100%; }
+    .text__nosotros3 h1 {
+      font-size: 60px; } }
+
+@media (max-width: 720px) {
+  .text__nosotros3 {
+    width: 100%; }
+    .text__nosotros3 p {
+      font-size: 30px; } }
+
+@media (max-width: 540px) {
+  .text__nosotros3 {
+    width: 100%; }
+    .text__nosotros3 h1 {
+      font-size: 40px; } }
+
+@media (max-width: 540px) {
+  .text__nosotros3 {
+    width: 100%; }
+    .text__nosotros3 p {
+      font-size: 20px; } }
+
+/*Productos*/
+.img__Productos img {
+  width: 100%;
+  margin-top: -30px;
+  height: auto; }
+
+@media (max-width: 920px) {
+  .img__Productos img {
+    margin-top: -12px; } }
+
+.productos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 10px; }
+  .productos h1 {
+    color: white;
+    text-align: center;
+    background: rgba(100, 54, 17, 0.753);
+    height: 50px;
+    width: auto;
+    margin-top: 0px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+@media (max-width: 1250px) {
+  .productos img {
+    width: 450px;
+    height: 450px; } }
+
+@media (max-width: 920px) {
+  .productos img {
+    width: 300px;
+    height: 300px; } }
+
+@media (max-width: 670px) {
+  .productos img {
+    width: 250px;
+    height: 250px; } }
+
+@media (max-width: 548px) {
+  .productos img {
+    width: 200px;
+    height: 200px; } }
+
+@media (max-width: 548px) {
+  .productos h1 {
+    font-size: 20px;
+    height: 30px; } }
+
+.producto1 {
+  display: flex;
+  flex-direction: row; }
+  .producto1 div {
+    width: auto;
+    height: auto;
+    background: rgba(100, 54, 17, 0.753); }
+  .producto1 h1 {
+    color: white;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    margin-top: 40px; }
+  .producto1 p {
+    color: white;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px; }
+
+@media (max-width: 1140px) {
+  .producto1 {
+    display: flex;
+    flex-direction: column; }
+    .producto1 img {
+      margin: 0% 0%;
+      width: 100%;
+      height: 400px; } }
+
+@media (max-width: 450px) {
+  .producto1 {
+    display: flex;
+    flex-direction: column; }
+    .producto1 img {
+      margin: 0% 0%;
+      width: 100%;
+      height: 200px; } }
+
+@media (max-width: 545px) {
+  .texto__p1 h1 {
+    font-size: 30px; }
+    .texto__p1 h1 p {
+      font-size: 20px; } }
+
+/*Contacto*/
+.img__Contacto img {
+  width: 100%;
+  margin-top: -30px;
+  height: auto; }
+
+@media (max-width: 920px) {
+  .img__Contacto img {
+    margin-top: -12px; } }
+
+.form__Contacto {
+  width: 450px;
+  margin: auto;
+  background: rgba(100, 54, 17, 0.753);
+  padding: 10px 20px;
+  margin-top: 10px; }
+  .form__Contacto h2 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 15px; }
+  .form__Contacto input, .form__Contacto textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none; }
+  .form__Contacto textarea {
+    min-height: 100px;
+    max-height: 200px; }
+
+#BotonFC {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  background: rgba(173, 98, 0, 0.349);
+  border-color: white;
+  border: 2px solid;
+  color: white; }
+
+@media (max-width: 530px) {
+  .form__Contacto {
+    width: 100%; }
+    .form__Contacto h2 {
+      font-size: 25px; } }
+
+/*Ingresar*/
+.img__Ingresar img {
+  width: 100%;
+  margin-top: -30px;
+  height: auto; }
+
+@media (max-width: 920px) {
+  .img__Ingresar img {
+    margin-top: -12px; } }
+
+.login {
+  width: 400px;
+  height: 300px;
+  background-color: rgba(100, 54, 17, 0.753);
+  margin: auto;
+  /*hace la sombra*/
+  box-shadow: 7px 13px 37px #000;
+  padding: 20px 30px;
+  color: white;
+  margin-top: 10px; }
+  .login h2 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    /*hace la raya divisoria*/
+    border-bottom: 1px solid;
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+.datos {
+  border: 1px solid black;
+  margin-bottom: 8px;
+  padding: 7px 9px;
+  font-weight: bold;
+  width: 100%; }
+
+.botonacceso {
+  width: 100%;
+  height: 30px;
+  border: 1px solid black;
+  margin-bottom: 16px; }
+
+.login p {
+  height: 40px;
+  text-align: center;
+  border-bottom: 1px solid; }
+
+.login a {
+  color: white;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold; }
+
+@media (max-width: 500px) {
+  .login {
+    width: 100%; } }
+
+@media (max-width: 450px) {
+  .login h2 {
+    font-size: 20px; } }
